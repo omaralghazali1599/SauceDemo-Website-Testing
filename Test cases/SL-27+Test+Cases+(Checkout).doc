@@ -1,0 +1,991 @@
+Message-ID: <448137841.3.1736863485263@fba6b50a1b13>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_484811431.1736863485262"
+
+------=_Part_2_484811431.1736863485262
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SL-27 Test Cases (Checkout)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SL-27 Test Cases (Checkout)</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"center" data-local-id=3D"fa=
+c7eee0-1bfe-4c47-a1f8-df0abd54e2f4" class=3D"confluenceTable">
+<colgroup>
+<col>
+<col style=3D"width: 149.0px;">
+<col style=3D"width: 154.0px;">
+<col style=3D"width: 154.0px;">
+<col style=3D"width: 154.0px;">
+<col style=3D"width: 154.0px;">
+<col style=3D"width: 250.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 129.0px;">
+<col style=3D"width: 139.0px;">
+<col style=3D"width: 154.0px;">
+<col style=3D"width: 129.0px;">
+<col style=3D"width: 94.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"numberingColumn confluenceTh"></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Jira link</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Test scenario</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Test case</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Steps to reproduce</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Credentials used in testing</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Expected result</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Actual result</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>results (Passed Or Failed)</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>attachment</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Priority</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Severity</strong></p></th>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">1</td>
+<td class=3D"confluenceTd">
+<p>TC-1-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that special characters are allowed in the first name.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the First name.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should allow the special characters in the first name.</p></td>
+<td class=3D"confluenceTd">
+<p>It allows special characters in the first name,</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">2</td>
+<td class=3D"confluenceTd">
+<p>TC-2-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that first name field is mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the First name.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>First name field should be mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>First name field is mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">3</td>
+<td class=3D"confluenceTd">
+<p>TC-3-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that special characters are allowed in the last name.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the last name.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should allow the special characters in the last name.</p></td>
+<td class=3D"confluenceTd">
+<p>Working fine for the ( Perfomanrce glitch user and the standard user ).<=
+/p>
+<p>But for the problem user it is not allowing to write characters in the l=
+ast name field.</p></td>
+<td class=3D"confluenceTd">
+<p>Fail for the (Problem User)</p></td>
+<td class=3D"confluenceTd">
+<p></p><span class=3D"confluence-embedded-file-wrapper image-center-wrapper=
+ confluence-embedded-manual-size"><a href=3D"/wiki/download/attachments/710=
+41111/screen-capture.webm?version=3D1&amp;modificationDate=3D1735149128079&=
+amp;cacheVersion=3D1&amp;api=3Dv2">screen-capture.webm</a></span>
+<p>Problem user</p></td>
+<td class=3D"confluenceTd">
+<p>High</p></td>
+<td class=3D"confluenceTd">
+<p>Major</p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">4</td>
+<td class=3D"confluenceTd">
+<p>TC-4 SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that last name field is mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the last name.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>Last name field should be mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>Last name field is mandatory,</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">5</td>
+<td class=3D"confluenceTd">
+<p>TC-5-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that Postal code should be numeric only.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the postal code.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should be numeric only.</p></td>
+<td class=3D"confluenceTd">
+<p>It is allowing characters as well and for the problem user we cant check=
+ because it is mandatory to fill value in last name columm before checking =
+this validation,</p></td>
+<td class=3D"confluenceTd">
+<p>Fail</p></td>
+<td class=3D"confluenceTd">
+<p></p><span class=3D"confluence-embedded-file-wrapper image-center-wrapper=
+ confluence-embedded-manual-size"><img class=3D"confluence-embedded-image i=
+mage-center" alt=3D"TC 5- scrum 11 (Standard User)-20241225-162150.png" wid=
+th=3D"110" loading=3D"lazy" src=3D"08b3cc9f1b6512ce0767b67b60064af35027b56d=
+18fcb9dcf5c9e305ec677781" data-image-src=3D"https://omaralghazali1599.atlas=
+sian.net/wiki/download/attachments/71041111/TC%205-%20scrum%2011%20(Standar=
+d%20User)-20241225-162150.png?version=3D1&amp;modificationDate=3D1735146400=
+742&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"825" data-width=3D"18=
+55" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"72220747=
+" data-linked-resource-version=3D"1" data-linked-resource-type=3D"attachmen=
+t" data-linked-resource-default-alias=3D"TC 5- scrum 11 (Standard User)-202=
+41225-162150.png" data-base-url=3D"https://omaralghazali1599.atlassian.net/=
+wiki" data-linked-resource-content-type=3D"image/png" data-linked-resource-=
+container-id=3D"71041111" data-linked-resource-container-version=3D"9" data=
+-media-id=3D"708c034f-afb9-459d-b9d0-b176b3dba32b" data-media-type=3D"file"=
+ height=3D"48"></span>
+<p></p><span class=3D"confluence-embedded-file-wrapper image-center-wrapper=
+ confluence-embedded-manual-size"><img class=3D"confluence-embedded-image i=
+mage-center" alt=3D"TC 5- scrum 11 (Performance Glitch user)-20241225-16425=
+8.png" width=3D"110" loading=3D"lazy" src=3D"fc987069d9abd615b7d824a5d08353=
+f218329a146045f62777719f8c908c6cfb" data-image-src=3D"https://omaralghazali=
+1599.atlassian.net/wiki/download/attachments/71041111/TC%205-%20scrum%2011%=
+20(Performance%20Glitch%20user)-20241225-164258.png?version=3D1&amp;modific=
+ationDate=3D1735146434047&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D=
+"825" data-width=3D"1855" data-unresolved-comment-count=3D"0" data-linked-r=
+esource-id=3D"72286379" data-linked-resource-version=3D"1" data-linked-reso=
+urce-type=3D"attachment" data-linked-resource-default-alias=3D"TC 5- scrum =
+11 (Performance Glitch user)-20241225-164258.png" data-base-url=3D"https://=
+omaralghazali1599.atlassian.net/wiki" data-linked-resource-content-type=3D"=
+image/png" data-linked-resource-container-id=3D"71041111" data-linked-resou=
+rce-container-version=3D"9" data-media-id=3D"b9a6ea0c-d6af-46cf-9566-260ad7=
+910bd3" data-media-type=3D"file" height=3D"48"></span>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>HIgh</p></td>
+<td class=3D"confluenceTd">
+<p>Major</p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">6</td>
+<td class=3D"confluenceTd">
+<p>TC-6-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to checkout my cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that Postal code field is mandatory.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - Enter the postal code.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>Postal code field should be mandatory,</p></td>
+<td class=3D"confluenceTd">
+<p>It is working fine for the performance glitch user and the standard user=
+, but for the problem user it is on hold</p></td>
+<td class=3D"confluenceTd">
+<p>Pass : Standard user and performance glitch user</p>
+<p>Hold : Problem user.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">7</td>
+<td class=3D"confluenceTd">
+<p>TC-7-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to cancel my checkout and go back to the cart.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that after clicking on the cancel button it should redirect the=
+ user to the cart.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - click on the cancel button.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should take user to the cart after clicking on the cancel.</p></td>
+<td class=3D"confluenceTd">
+<p>It is taking user to the cart after clicking on the cancel button.</p></=
+td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"numberingColumn confluenceTd">8</td>
+<td class=3D"confluenceTd">
+<p>TC-8-SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ=
+1OTI4NGQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiODRiYTBmZjQ1OTI4N=
+GQ2YWE1YjZjMWJhNDJiOTVhMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to place my order.</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that it should redirect to the final checkout.</p></td>
+<td class=3D"confluenceTd">
+<p>1- Open the link=E2=80=9D<a class=3D"external-link" data-card-appearance=
+=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">https://ww=
+w.saucedemo.com/</a> .</p>
+<p>2.Login to account.</p>
+<p>3 - Add product to the cart.</p>
+<p>4 - Click on the checkout button.</p>
+<p>5 - click on the continue button.</p></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should take user to the final checkout,</p></td>
+<td class=3D"confluenceTd">
+<p>Working fine for the ( Performance Glitch user and the standard user ) b=
+ut for the problem user we need to fill values in the last name before goin=
+g for the checkout.</p></td>
+<td class=3D"confluenceTd">
+<p>Pass : Standard user and performance glitch user</p>
+<p>Hold:Problem user.</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_2_484811431.1736863485262
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/08b3cc9f1b6512ce0767b67b60064af35027b56d18fcb9dcf5c9e305ec677781
+
+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
+YII=
+------=_Part_2_484811431.1736863485262
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/fc987069d9abd615b7d824a5d08353f218329a146045f62777719f8c908c6cfb
+
+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
+YII=
+------=_Part_2_484811431.1736863485262--

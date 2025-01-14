@@ -1,0 +1,848 @@
+Message-ID: <735411392.3.1736863513607@14789c1ccdf9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_2_227906782.1736863513607"
+
+------=_Part_2_227906782.1736863513607
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SL-31 Test Cases (Checkout overview)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SL-31 Test Cases (Checkout overview)</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"center" data-local-id=3D"d6=
+ab2f1f-c184-498e-b77a-faf1d2f9ec7d" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 164.0px;">
+<col style=3D"width: 166.0px;">
+<col style=3D"width: 166.0px;">
+<col style=3D"width: 228.0px;">
+<col style=3D"width: 220.0px;">
+<col style=3D"width: 226.0px;">
+<col style=3D"width: 209.0px;">
+<col style=3D"width: 233.0px;">
+<col style=3D"width: 265.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 136.0px;">
+<col style=3D"width: 163.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>ID</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Jira link</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Test scenario</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Test case</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Steps to reproduce</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Credentials used in testing</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Expected result</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Actual result</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>results (Passed Or Failed)</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Attachment</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Priority</strong></p></th>
+<th data-highlight-colour=3D"var(--ds-background-accent-gray-subtlest,var(-=
+-ds-background-accent-gray-subtlest,#f1f2f4))" class=3D"confluenceTh">
+<p><strong>Severity</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-1-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate that the products are displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the website</p></li>
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-2-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the product=E2=80=99s name</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the website</p></li>
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-3-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the product=E2=80=99s description</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the website</p></li>
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-4-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the product=E2=80=99s price</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-5-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the product=E2=80=99s quantity</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-6-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate that the user=E2=80=99s payment details are displayed correctly=
+</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-7-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate that the user's shipping information is displayed correctly</p>=
+</td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the information to be displayed correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-8-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the order=E2=80=99s total price</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the total price is calculated correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-9-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the tax amount</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the tax is calculated correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-10-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the price after the decimal point</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>only 2 digits after the checkpoint</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-11-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user,order i want to have a final overview of products in my cart</=
+p></td>
+<td class=3D"confluenceTd">
+<p>Validate the oreder=E2=80=99s total amount</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the total amount to be calculated correctly</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-12-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the cancel button and its functionality</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the user is redirected to the home page</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-13-SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjd=
+lOGJiNDE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiYjJjMDUyMjdlOGJiN=
+DE4MDgxMzFjNjlmNmI3MmZhZmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user, i want to have a final overview of products in my cart</p></t=
+d>
+<td class=3D"confluenceTd">
+<p>Validate the finish button=E2=80=99s functionality</p></td>
+<td class=3D"confluenceTd">
+<p>Navigate to the website</p>
+<ol start=3D"1">
+<li>
+<p>Login as a user</p></li>
+<li>
+<p>Add items to the cart</p></li>
+<li>
+<p>Navigate to the checkout overview page</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>the user is redirected to the success page</p></td>
+<td class=3D"confluenceTd">
+<p>All users worked fine as expected but the problem was that the user had =
+an error which did not allow me to go to the overview section of the checko=
+ut process.</p></td>
+<td class=3D"confluenceTd">
+<p>Hold (Problem user)</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_2_227906782.1736863513607--

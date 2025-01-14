@@ -1,0 +1,591 @@
+Message-ID: <834200534.5.1736863549156@14789c1ccdf9>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_4_508651775.1736863549156"
+
+------=_Part_4_508651775.1736863549156
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SauceDemo Website Test Plan</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SauceDemo Website Test Plan</h1>
+    <div class=3D"Section1">
+        <h1 id=3D"SauceDemoWebsiteTestPlan-TestPlanOverview:">Test Plan Ove=
+rview:</h1>
+<h2 id=3D"SauceDemoWebsiteTestPlan-1.Introduction:">1. Introduction:</h2>
+<h3 id=3D"SauceDemoWebsiteTestPlan-1.1Purposeofthedocument:"><strong>1.1 Pu=
+rpose of the document: </strong></h3>
+<p>This document is made to outline the Swag Labs website testing strategy,=
+ functional, non-functional, scope, objectives, and user experience require=
+ments.</p>
+<h3 id=3D"SauceDemoWebsiteTestPlan-1.2Scope:"><strong>1.2 Scope:</strong></=
+h3>
+<h4 id=3D"SauceDemoWebsiteTestPlan-1.2.1In-Scope"><strong>1.2.1 In-Scope</s=
+trong></h4>
+<p>The testing will cover the following functionalities and areas of the Sa=
+uceDemo website:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Core Functionalities</strong>:</p>
+<ul>
+<li>
+<p>User authentication: Login with valid and invalid credentials.</p></li>
+<li>
+<p>Product catalog: Browsing, sorting, and filtering products.</p></li>
+<li>
+<p>Shopping cart: Adding, updating, and removing items.</p></li>
+<li>
+<p>Checkout process: providing customer information, payment details, and o=
+rder completion.</p></li>
+<li>
+<p>Order history: Verifying order details after checkout.</p></li>
+</ul></li>
+<li>
+<p><strong>Performance</strong>:</p>
+<ul>
+<li>
+<p>Page load times across different scenarios.</p></li>
+<li>
+<p>System response under various user loads.</p></li>
+</ul></li>
+<li>
+<p><strong>Usability</strong>:</p>
+<ul>
+<li>
+<p>User interface consistency.</p></li>
+<li>
+<p>Navigation between pages.</p></li>
+<li>
+<p>Desktop responsiveness.</p></li>
+</ul></li>
+<li>
+<p><strong>Security</strong>:</p>
+<ul>
+<li>
+<p>Validating login security</p></li>
+<li>
+<p>Securing sensitive data during payment and checkout.</p></li>
+</ul></li>
+</ol>
+<h4 id=3D"SauceDemoWebsiteTestPlan-1.2.2Out-of-Scope"><strong>1.2.2 Out-of-=
+Scope</strong></h4>
+<p>The following areas are outside the scope of this test plan:</p>
+<ol start=3D"1">
+<li>
+<p><strong>Third-Party Integrations</strong>:</p>
+<ul>
+<li>
+<p>Payment gateway integrations go beyond basic functionality validation.</=
+p></li>
+<li>
+<p>External APIs or services not directly managed by SauceDemo.</p></li>
+</ul></li>
+<li>
+<p><strong>Backend System Testing</strong>:</p>
+<ul>
+<li>
+<p>Database performance or backend server logic unrelated to end-user featu=
+res.</p></li>
+</ul></li>
+</ol>
+<h3 id=3D"SauceDemoWebsiteTestPlan-1.3References:"><strong>1.3 References</=
+strong>:</h3>
+<ul>
+<li>
+<p>SauceDemo documentation, user requirements, and project specifications.<=
+/p></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-2.Objectives:">2. Objectives:</h2>
+<ul>
+<li>
+<p><strong>Verify Functionality</strong></p>
+<ul>
+<li>
+<p>Ensure all features and functionalities of the SauceDemo website work as=
+ intended, including login, product catalog, cart, checkout, and user accou=
+nt management.</p></li>
+</ul></li>
+<li>
+<p><strong>Identify Defects</strong></p>
+<ul>
+<li>
+<p>Detect and document bugs, errors, and inconsistencies in the system to e=
+nsure they are fixed before deployment.</p></li>
+</ul></li>
+<li>
+<p><strong>Ensure Usability</strong></p>
+<ul>
+<li>
+<p>Validate the website's user interface and navigation to provide a seamle=
+ss and intuitive experience for users.</p></li>
+</ul></li>
+<li>
+<p><strong>Validate Performance</strong></p>
+<ul>
+<li>
+<p>Test the website under various load conditions to ensure it performs opt=
+imally without crashes, delays, or performance degradation.</p></li>
+</ul></li>
+<li>
+<p><strong>Test Automation</strong></p>
+<ul>
+<li>
+<p>Design and run automated test cases for the different users.</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-3.TestApproach:">3. Test Approach:</h2>
+<h3 id=3D"SauceDemoWebsiteTestPlan-3.1Typesoftesting:">3.1 Types of testing=
+:</h3>
+<ul>
+<li>
+<p>Manual Functional Testing.</p>
+<ul>
+<li>
+<p>Black-box Testing.</p></li>
+<li>
+<p>Exploratory testing.</p></li>
+</ul></li>
+<li>
+<p>Automated Functional Testing.</p></li>
+<li>
+<p>Performance Testing.</p></li>
+<li>
+<p>Regression Testing.</p></li>
+</ul>
+<h3 id=3D"SauceDemoWebsiteTestPlan-3.2ToolsandFrameworks:">3.2 Tools and Fr=
+ameworks:</h3>
+<ul>
+<li>
+<p>Selenium with java for automation.</p></li>
+<li>
+<p>Testng framework.</p></li>
+<li>
+<p>Attlassian Confluence for test case writing and system documentation.</p=
+></li>
+<li>
+<p>J-meter and Selenium for the performance testing.</p></li>
+<li>
+<p>Attlassian Jira software management tool for test management.</p></li>
+<li>
+<p>Attlassian Jira software management tool for bug reporting.</p></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-4.TestEnvironment:">4. Test Environment:=
+</h2>
+<h3 id=3D"SauceDemoWebsiteTestPlan-4.1Software:">4.1 Software:</h3>
+<ul>
+<li>
+<p><strong>Browsers:</strong></p>
+<ul>
+<li>
+<p>Microsoft Edge</p></li>
+<li>
+<p>Google Chrome</p></li>
+</ul></li>
+</ul>
+<h3 id=3D"SauceDemoWebsiteTestPlan-4.2Hardware:">4.2 Hardware:</h3>
+<ul>
+<li>
+<p>Desktop: Laptop/PC with Windows 10/11</p></li>
+</ul>
+<h3 id=3D"SauceDemoWebsiteTestPlan-4.3TestData:">4.3 Test Data:</h3>
+<ul>
+<li>
+<p><strong>User Credintials:</strong></p>
+<ul>
+<li>
+<p>Standard_user</p></li>
+<li>
+<p>Locked_out_user</p></li>
+<li>
+<p>Problem_user</p></li>
+<li>
+<p>Performance_glitch_user</p></li>
+</ul></li>
+<li>
+<p><strong>Password:</strong></p>
+<ul>
+<li>
+<p>secret_sauce</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-5.TestCases:">5. Test Cases:</h2>
+<ul>
+<li>
+<p>Login</p>
+<ul>
+<li>
+<p>Valid and invalid credentials</p></li>
+</ul></li>
+<li>
+<p>Cart</p>
+<ul>
+<li>
+<p>Products in cart</p></li>
+<li>
+<p>Quantities</p></li>
+</ul></li>
+<li>
+<p>Products</p>
+<ul>
+<li>
+<p>Description '</p></li>
+<li>
+<p>Name</p></li>
+<li>
+<p>Photo</p></li>
+<li>
+<p>Prices</p></li>
+</ul></li>
+<li>
+<p>Checkout</p>
+<ul>
+<li>
+<p>Total calculations</p></li>
+<li>
+<p>Address</p></li>
+<li>
+<p>Payments</p></li>
+</ul></li>
+<li>
+<p>Hompage</p>
+<ul>
+<li>
+<p>Product display</p></li>
+<li>
+<p>All other features display</p></li>
+</ul></li>
+<li>
+<p>Filters</p></li>
+<li>
+<p>Sorting</p></li>
+<li>
+<p>Error messages</p></li>
+<li>
+<p>UI consistency</p>
+<ul>
+<li>
+<p>consistent across all users</p></li>
+</ul></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-6.TestDeliverables:">6. Test Deliverable=
+s:</h2>
+<ul>
+<li>
+<p>User Stories</p></li>
+<li>
+<p>Test cases and Test scenarios</p></li>
+<li>
+<p>Test data and documentation</p></li>
+<li>
+<p>Test coverage</p></li>
+<li>
+<p>Bug reports</p></li>
+<li>
+<p>Test summary reports (Automation and Performance testing reports)</p></l=
+i>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-7.TestingSchedule:">7. Testing Schedule:=
+</h2>
+<ul>
+<li>
+<p>Test planning: 14/11/2024- 20/11/2024.</p></li>
+<li>
+<p>Test case development: 25/11/2024-27/11/2024.</p></li>
+<li>
+<p>Test execution: 15/12/2024-27/12/2024.</p></li>
+<li>
+<p>Bug reporting: 28/12/2024.</p></li>
+<li>
+<p>Performance testing: 5/1/2025 - 13/1/2025</p></li>
+<li>
+<p>Automation testing: 5/1/2025 - 13/1/2025</p></li>
+<li>
+<p>Final report submission: 14/1/2025</p></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-8.RiskandMitigation:">8. Risk and Mitiga=
+tion:</h2>
+<ul>
+<li>
+<p><strong>Risk: No API Calls for Performance Testing</strong></p>
+<ul>
+<li>
+<p><strong>Description</strong>: Since the website does not use API calls, =
+performance testing via JMeter (which typically targets API endpoints) cann=
+ot be conducted.</p></li>
+<li>
+<p><strong>Mitigation</strong>:</p>
+<ul>
+<li>
+<p>Use web-based load testing tools such as (LoadRunner), which can simulat=
+e user traffic and evaluate the front-end performance.</p></li>
+<li>
+<p>Leverage browser performance tools (Chrome DevTools) to test load times,=
+ resource usage, and rendering performance.</p></li>
+<li>
+<p>Selenium test case runtime comparison between different types of users</=
+p></li>
+</ul></li>
+</ul></li>
+<li>
+<p><strong>Risk: Limited Performance Test Coverage</strong></p>
+<ul>
+<li>
+<p><strong>Description</strong>: Without an API layer to stress-test, the s=
+cope of performance testing may be limited to client-side interactions.</p>=
+</li>
+<li>
+<p><strong>Mitigation</strong>:</p>
+<ul>
+<li>
+<p>Focus on evaluating the website=E2=80=99s responsiveness and load perfor=
+mance under different user loads.</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id=3D"SauceDemoWebsiteTestPlan-9.EntryandExitCriteria:">9. Entry and Ex=
+it Criteria:</h2>
+<ul>
+<li>
+<p><strong>Entry Criteria</strong>:</p>
+<ul>
+<li>
+<p>Test environment setup is complete.</p></li>
+<li>
+<p>Test cases are reviewed and approved.</p></li>
+</ul></li>
+<li>
+<p><strong>Exit Criteria</strong>:</p>
+<ul>
+<li>
+<p>All high-priority test cases executed.</p></li>
+<li>
+<p>No critical/blocker bugs remain.</p></li>
+<li>
+<p>Test summary report delivered.</p></li>
+</ul></li>
+</ul>
+    </div>
+</body>
+</html>
+------=_Part_4_508651775.1736863549156--

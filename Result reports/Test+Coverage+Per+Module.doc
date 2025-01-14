@@ -1,0 +1,559 @@
+Message-ID: <1523549623.13.1736863581002@d769ada15072>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_12_870295373.1736863581002"
+
+------=_Part_12_870295373.1736863581002
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Test Coverage Per Module</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Test Coverage Per Module</h1>
+    <div class=3D"Section1">
+        <p>Epic 1: Login</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"center" data-local-id=3D"427=
+99f4f-1a1c-496d-9dbd-2aa5709d7141" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>User story id</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Link</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Number of test cases</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Hold</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Failed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passing percentage</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-24</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-24?atlOrigin=3DeyJpIjoiZTlhZGNmYzl=
+jN2NkNDI4Mjk5NjgyYjlhMTc4ZTA4NjUiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-24?atlOrigin=3DeyJpIjoiZTlhZGNmYzljN2NkN=
+DI4Mjk5NjgyYjlhMTc4ZTA4NjUiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>100%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Total</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>7</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>100%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Epic 2: Homepage</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"7a=
+2f6c8e-d885-4302-936d-03bf7e12fc73" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>User story id</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Link</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Number of test cases</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Hold</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Failed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passing percentage</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-26</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-26?atlOrigin=3DeyJpIjoiYTBkZjZiYTk=
+1MDllNGY2ZWEzNDQ5NzNhNWIzMTQ4ZjQiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-26?atlOrigin=3DeyJpIjoiYTBkZjZiYTk1MDllN=
+GY2ZWEzNDQ5NzNhNWIzMTQ4ZjQiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>14</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>9</p></td>
+<td class=3D"confluenceTd">
+<p>28.5%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-28</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-28?atlOrigin=3DeyJpIjoiODQ3NDYwYWE=
+2YWQ4NGU4YzlkZWJhMDVkYTk5MzM1ZjAiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-28?atlOrigin=3DeyJpIjoiODQ3NDYwYWE2YWQ4N=
+GU4YzlkZWJhMDVkYTk5MzM1ZjAiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>75%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-25</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiMDAxOTA2ZGF=
+hZGZhNDUyOTk2ZGY4NDdjMTJjODgzMmIiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiMDAxOTA2ZGFhZGZhN=
+DUyOTk2ZGY4NDdjMTJjODgzMmIiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>3</p></td>
+<td class=3D"confluenceTd">
+<p>25%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Total</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>22</p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>1</p></td>
+<td class=3D"confluenceTd">
+<p>13</p></td>
+<td class=3D"confluenceTd">
+<p>42.83%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Epic 3: Cart and Checkout</p>
+<p></p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"default" data-local-id=3D"1f=
+67c8bc-b87a-4f42-b7c9-8318f1f906d9" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>User story id</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Link</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Number of test cases</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Hold</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Failed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passing percentage</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-29</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-29?atlOrigin=3DeyJpIjoiYzNmOGM2YmF=
+mOTRlNGQzMDk5MzQwMjQ2NWVkNWE3MmUiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-29?atlOrigin=3DeyJpIjoiYzNmOGM2YmFmOTRlN=
+GQzMDk5MzQwMjQ2NWVkNWE3MmUiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+<td class=3D"confluenceTd">
+<p>10</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>100%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-27</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiNzM3Yjc0YWI=
+3M2I1NDMwMmE0NmMzYjI2YTVlMDc2ZTciLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-27?atlOrigin=3DeyJpIjoiNzM3Yjc0YWI3M2I1N=
+DMwMmE0NmMzYjI2YTVlMDc2ZTciLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>8</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>50%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-31</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiODIxN2IwZGU=
+2NjAzNDZkN2IxYjU5MmY5ZDZlYzgzMDQiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-31?atlOrigin=3DeyJpIjoiODIxN2IwZGU2NjAzN=
+DZkN2IxYjU5MmY5ZDZlYzgzMDQiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>13</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>13</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0%</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Total</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>32</p></td>
+<td class=3D"confluenceTd">
+<p>14</p></td>
+<td class=3D"confluenceTd">
+<p>15</p></td>
+<td class=3D"confluenceTd">
+<p>2</p></td>
+<td class=3D"confluenceTd">
+<p>50%</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Epic 4: Products</p>
+<div class=3D"table-wrap">
+<table data-table-width=3D"760" data-layout=3D"center" data-local-id=3D"485=
+6d24e-86f9-403a-90ee-7761f50fb09d" class=3D"confluenceTable">
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>User story id</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Link</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Number of test cases</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Hold</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Failed</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Passing percentage</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>SL-30</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-30?atlOrigin=3DeyJpIjoiNGU3NGQzMzE=
+0OGZjNDdmNjk1YTU1ZDg2MDM0OWY1YTYiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-30?atlOrigin=3DeyJpIjoiNGU3NGQzMzE0OGZjN=
+DdmNjk1YTU1ZDg2MDM0OWY1YTYiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>Total</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+<td class=3D"confluenceTd">
+<p>4</p></td>
+<td class=3D"confluenceTd">
+<p>0</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_12_870295373.1736863581002--

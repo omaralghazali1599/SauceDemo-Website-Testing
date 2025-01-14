@@ -1,0 +1,459 @@
+Message-ID: <408859510.15.1736863469084@69a2aa3a8043>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_14_296752641.1736863469083"
+
+------=_Part_14_296752641.1736863469083
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>SL-25 Test Cases (Hamburger Icon Functionalities)</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>SL-25 Test Cases (Hamburger Icon Functionalities)</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"center" data-local-id=3D"b9=
+0dd93e-de5e-431f-b808-cba3c781f4ad" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 164.0px;">
+<col style=3D"width: 166.0px;">
+<col style=3D"width: 166.0px;">
+<col style=3D"width: 228.0px;">
+<col style=3D"width: 220.0px;">
+<col style=3D"width: 218.0px;">
+<col style=3D"width: 218.0px;">
+<col style=3D"width: 233.0px;">
+<col style=3D"width: 265.0px;">
+<col style=3D"width: 140.0px;">
+<col style=3D"width: 136.0px;">
+<col style=3D"width: 163.0px;">
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh">
+<p><strong>ID</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Jira link</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Test scenario</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Test case</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Steps to reproduce</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Credentials used in testing</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Expected result</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Actual result</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>results (Passed Or Failed)</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Attachment</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Priority</strong></p></th>
+<th class=3D"confluenceTh">
+<p><strong>Severity</strong></p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-1-SL-25</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc=
+5ZTY3NDkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc5ZTY3N=
+DkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to test all the hamburger icon menu options</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that all the item should be displayed when clicking on all item=
+s menu.</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the swag labs website.<a class=3D"external-link" data-card-a=
+ppearance=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">h=
+ttps://www.saucedemo.com/</a></p></li>
+<li>
+<p>Login to an account</p></li>
+<li>
+<p>from the hamburger icon click on all items menu.</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should redirected the user.</p>
+<p></p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>It redirected the user.</p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-2-SL-25</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc=
+5ZTY3NDkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc5ZTY3N=
+DkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to test all the hamburger icon menu options</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that it should redirect to the about section after clicking on =
+the about menu.</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the swag labs website<a class=3D"external-link" data-card-ap=
+pearance=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">ht=
+tps://www.saucedemo.com/</a></p></li>
+<li>
+<p>Login to an account</p></li>
+<li>
+<p>from the hamburger icon click on about menu.</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should redirected the user.</p></td>
+<td class=3D"confluenceTd">
+<p>It redirected the user.</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-3-SL-25</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc=
+5ZTY3NDkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc5ZTY3N=
+DkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to test all the hamburger icon menu options</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that it should terminates the session after clicking on the log=
+out menu.</p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the swag labs website<a class=3D"external-link" data-card-ap=
+pearance=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">ht=
+tps://www.saucedemo.com/</a></p></li>
+<li>
+<p>Login to an account</p></li>
+<li>
+<p>from the hamburger icon click on logout menu.</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should redirected the user to the login page.</p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>It redirected the user to the login page.</p></td>
+<td class=3D"confluenceTd">
+<p>Pass</p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+<td class=3D"confluenceTd">
+<p></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd">
+<p>TC-4-SL-25</p></td>
+<td class=3D"confluenceTd">
+<p><a class=3D"external-link" data-card-appearance=3D"inline" href=3D"https=
+://harshitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc=
+5ZTY3NDkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9" rel=3D"nofollow">https://har=
+shitjawa12.atlassian.net/browse/SL-25?atlOrigin=3DeyJpIjoiNDgzMjY0NTc5ZTY3N=
+DkzYzlkYTI2MDRiMmQwZTIzMDgiLCJwIjoiaiJ9</a></p></td>
+<td class=3D"confluenceTd">
+<p>As a user i want to test all the hamburger icon menu options</p></td>
+<td class=3D"confluenceTd">
+<p>Validate that it should reset the state after clicking on the reset menu=
+.</p>
+<p></p></td>
+<td class=3D"confluenceTd">
+<ol start=3D"1">
+<li>
+<p>Navigate to the swag labs website<a class=3D"external-link" data-card-ap=
+pearance=3D"inline" href=3D"https://www.saucedemo.com/" rel=3D"nofollow">ht=
+tps://www.saucedemo.com/</a></p></li>
+<li>
+<p>Login to an account</p></li>
+<li>
+<p>from the hamburger icon click on the reset menu.</p></li>
+</ol></td>
+<td class=3D"confluenceTd">
+<p>standard_user locked_out_user problem_user performance_glitch_user</p></=
+td>
+<td class=3D"confluenceTd">
+<p>It should reset the app state.</p></td>
+<td class=3D"confluenceTd">
+<p>the app state is reset but the product=E2=80=99s button don=E2=80=99t sw=
+itch back to add to cart instead it stays on remove</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p>Failed</p></td>
+<td data-highlight-colour=3D"#ffffff" class=3D"confluenceTd">
+<p></p><span class=3D"confluence-embedded-file-wrapper image-center-wrapper=
+ confluence-embedded-manual-size"><a href=3D"/wiki/download/attachments/662=
+24414/screen-capture%20(1).webm?version=3D1&amp;modificationDate=3D17351501=
+60592&amp;cacheVersion=3D1&amp;api=3Dv2">screen-capture (1).webm</a></span>
+<p></p></td>
+<td class=3D"confluenceTd">
+<p>HIgh</p></td>
+<td class=3D"confluenceTd">
+<p>Major</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p></p>
+    </div>
+</body>
+</html>
+------=_Part_14_296752641.1736863469083--
