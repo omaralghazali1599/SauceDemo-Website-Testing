@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SauceDemo Test Suite" parallel="false">
+    <test name="SauceDemo Tests">
+        <classes>
+            <class name="Locked_out_user" />
+            <class name="Problem_user" />
+            <class name="Performance_Glitch_User" />
+            <class name="Standard_user" />
+        </classes>
+    </test>
+</suite>
